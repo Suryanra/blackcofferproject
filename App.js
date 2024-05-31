@@ -19,7 +19,7 @@ resp.send(data);
 
 
 
-app.listen(4001,()=>
+app.listen(4001,'0.0.0.0',()=>
 {
 console.log("server listening at 4001 port");
 })
