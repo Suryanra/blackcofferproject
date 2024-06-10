@@ -23,13 +23,8 @@ app.get('/', async (req, resp) => {
   }
 });
 app.get('/data', async (req, resp) => {
-  resp.send({hello:"hello"})
-  // try {
-  //   const data = await BlackCofferModel.find({});
-  //   resp.send(data);
-  // } catch (error) {
-  //   resp.status(500).send({ error: 'An error occurred while fetching data' });
-  // }
+  resp.send({"hello everyone"});
+  
 });
 
 // Use the environment variable PORT if provided, otherwise default to 4001
