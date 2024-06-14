@@ -23,7 +23,7 @@ app.get('/', async (req, resp) => {
   }
 });
 app.get('/data', async (req, resp) => {
-  resp.send({"hello everyone"});
+  resp.send({hi:"hello everyone"});
   
 });
 
